@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include service_addon *.css
+recursive-include service_addon *.csv
+recursive-include service_addon *.html
+recursive-include service_addon *.ico
+recursive-include service_addon *.js
+recursive-include service_addon *.json
+recursive-include service_addon *.md
+recursive-include service_addon *.png
+recursive-include service_addon *.py
+recursive-include service_addon *.svg
+recursive-include service_addon *.txt
+recursive-exclude service_addon *.pyc
